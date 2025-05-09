@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background: #1A1A1A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    background: #2c2c2c;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #FFA500;
+}
+
+.user-input-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#user-input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#search-btn {
+    padding: 0.5rem 1rem;
+    background: #FFA500;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stats-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    flex: 1 1 45%;
+    background: #444;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #FFA500;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#FFA500 var(--progress, 0%), #222 0%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+}
