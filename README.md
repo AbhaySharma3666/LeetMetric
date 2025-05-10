@@ -36,7 +36,7 @@ Due to CORS restrictions, you need to enable a proxy:
     ### Run Locally
     1. Clone the repo:
     ```bash
-    git clone https://github.com//leetmetric.git
+    git clone https://github.com/AbhaySharma3666/LeetMetric.git
     cd leetmetric
   ```
 2. Open (index.html) in your browser.
