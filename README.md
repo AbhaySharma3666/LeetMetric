@@ -43,4 +43,4 @@ Due to CORS restrictions, you need to enable a proxy:
 > ⚠️ Make sure to enable the proxy before using the app.
 
 ## 🖼️ UI Preview
-![Alt text](images/example.png)
+![Overal look](Preview_Image/Screenshot 2025-05-10 202255.png)
